@@ -107,4 +107,11 @@ def plot(x,y,x2,y2):
 	plt.legend()
 	plt.show()
 
-naiveBayes('NaiveBayesEmailData.txt', plot_data=True, plot_x_dim=1)
+
+def main():
+	naiveBayes('NaiveBayesEmailData.txt', plot_data=True, plot_x_dim=0)
+
+
+
+if __name__ == '__main__':
+	main()
